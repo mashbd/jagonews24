@@ -1,0 +1,289 @@
+/* @import url('https://fonts.maateen.me/charukola-ultra-light/font.css'); */
+@import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+body{
+  background-color: #fafafa;
+  font-family: 'BenSenHandwriting';
+
+}
+
+.top_header{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+.bangla_date{
+    font-size: .9rem;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+.social_icon ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+    padding-left: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 100px; */
+    text-decoration: none;
+  }
+  /* hover */
+  .facebook:hover {
+    background-color: #1877F2;
+    color: #fff;
+  }
+  .youtube:hover {
+    background-color: #FF0000;
+    color: #fff;
+  }
+  .twitter:hover {
+    background-color: #00ACED;
+    color: #fff;
+  }
+  .instagram:hover {
+    background-color: #EB4270;
+    color: #fff;
+  }
+  .social_icon li a{
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      font-size: 1.125rem;
+      border: 1px solid #f5f5f5;
+      color: #888;
+      text-align: center;
+      line-height: 34px;
+  }
+
+  /* navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B30F0F;
+  height: 2.5rem;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu ul li{
+ float: left;
+ margin-right: 1.25rem;
+}
+.menu ul li a{
+  font-size: 1.3rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu ul li a:hover{
+  background-color: #B30F0F;
+}
+
+/* .serch-icon */
+.search_icon a{
+  color: #fff;
+}
+
+.top__footer{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height:7rem;
+  background-color: #DDDDDD;
+}
+.column {
+  float: left;
+  width: 35%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25rem;
+}
+.middle__footer{
+  height: 7rem;
+  /* background-color: blueviolet; */
+}
+.middle__footer P{
+  color: #777777;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+.last__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 10rem;
+  padding: 0 20px;
+}
+.light{
+  color: #777777;
+  border-bottom: 1px dotted ;
+}
+.light1{
+  color: #777777;
+}
+address{
+  color: #584e4e;
+  font-size: .9rem;
+}
+.button__same{
+   color: #3a3434da;
+}
+.button__same, .button__other{
+  border: 1px solid #3C3C3C;
+  padding: 3px 12px;
+}
+.button__other{
+  background-color: #3c3c3c;
+  transition: 0.5s ease-in-out;
+ 
+
+}
+.button__same:hover{
+  background-color: #3c3c3c;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+.button__other:hover{
+  background-color: #7B7B7B;
+}
+
+.last__footer ul{
+  list-style:none;
+}
+
+.last__footer__button a{
+  text-decoration: none;
+  /* color: #fff;  */
+  float: left;
+}
+.flex{
+  display: flex;
+  /* flex-direction: row; */
+  height: 40%;
+  /* width: 70%; */
+  padding: 10px 40px;
+}
+.first__news{
+  border: 1px solid #777777;
+  margin: 0px 5px 0px 5px;
+  padding: 5px;
+}
+.first__news img{
+  width: 100%;
+}
+.first__news p{
+  text-align: justify;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video__text{
+  font-size: 1.2rem;
+}
+.parallel{
+width: 89%;
+margin-left: 10px;
+height: 5px;
+background-color: #888;
+}
+
+
+.container{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.video__part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  height: 300px;
+}
+.video__1, .video__2, .video__3, .video__4{
+  padding: 5px;
+  text-align: justify;
+  color: #fff;
+
+}
+
+.copa_euro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+}
+.copa_euro img{
+ display: inline-block;
+ width: 100%;
+ padding: 0px 40px;
+}
+.sports{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-direction: row-reverse; */
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.sports__post__one {
+   border: 1px solid #7B7B7B;
+   padding: 5px;
+   text-align: justify;
+   margin-right: 5px;
+}
+/* span{
+  border-top: 1px solid #7b7b7b;
+} */
+span{
+  text-decoration: overline;
+}
+.sports__post__one img{
+  width: 100%;
+}
